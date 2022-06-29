@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#info {
+    text-align: center;
+    .mail-phone {
+        padding-top: 14px;
+        .info {
+            .icon {
+                i {
+                    padding: 4px;
+                    color: red;
+                }
+            }
+            .text {
+                a {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: lightblue;
+                    }
+                }
+            }
+        }
+        .contact {
+            margin-left: 5px;
+            padding-top: 2px;
+            .icon {
+                i {
+                    padding: 4px;
+                    color: red;
+                }
+            }
+            .phone {
+                span {
+                    color: white;
+                }
+            }
+        }
+        .socials {
+            i {
+                padding: 4px;
+                font-size: 22px;
+                color: gray;
+                &:hover {
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+}
+
+#header {
+    .navbar-brand {
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+    }
+    .navbar-nav {
+        .dropbtn {
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: red;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .nav-item {
+            color: white;
+            padding: 15px;
+            a {
+                color: white;
+            }
+            &:hover {
+                background-color: red;
+            }
+        }
+    }
+}
+
+main {
+    #hero {
+        .hero-slider {
+            height: 600px;
+            background-image: url(../images/car.jpg);
+            background-attachment: fixed;
+            .hero-content {
+                margin-top: 200px;
+                .hero-text {
+                    h1 {
+                        color: white;
+                        font-weight: 900;
+                    }
+                }
+                .hero-desc {
+                    p {
+                        color: white;
+                        font-size: 20px;
+                    }
+                }
+                .btn {
+                    a {
+                        padding: 15px 30px;
+                        text-decoration: none;
+                        color: white;
+                        border: 3px solid white;
+                        &:hover {
+                            background-color: red;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #pricing {
+        margin-top: 70px;
+        .pricing {
+            .pricing-title {
+                p {}
+            }
+            .pricing-box {
+                padding: 20px;
+                background-color: rgb(238, 238, 238);
+                border-radius: 20px;
+                .box-type {
+                    h1 {}
+                }
+                .cost {
+                    .money-montly {
+                        .money {
+                            color: red;
+                            font-size: 40px;
+                        }
+                        .monthly {
+                            margin-top: 20px;
+                            span {}
+                        }
+                    }
+                }
+                .buy-btn {
+                    margin-top: 20px;
+                    margin-left: 135px;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        padding: 10px 20px;
+                        background-color: red;
+                    }
+                }
+            }
+            .pricing-boxactive {
+                background-color: red;
+                padding: 20px;
+                border-radius: 20px;
+                .box-type {
+                    h1 {}
+                }
+                .cost {
+                    .money-montly {
+                        .money {
+                            color: white;
+                            font-size: 40px;
+                        }
+                        .monthly {
+                            margin-top: 20px;
+                            span {}
+                        }
+                    }
+                }
+                .buy-btn {
+                    margin-top: 20px;
+                    margin-left: 135px;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        padding: 10px 20px;
+                        background-color: red;
+                    }
+                    &:hover a {
+                        background-color: white;
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    #team {
+        margin-top: 60px;
+        .team-title {
+            margin-top: 70px;
+            .team-name {
+                h1 {}
+            }
+            .team-desc {}
+        }
+        .team-member-box {
+            margin-top: 20px;
+            background-color: rgb(240, 240, 240);
+            padding: 15px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            .member-image {
+                img {
+                    text-align: center;
+                    border-radius: 50%;
+                }
+            }
+            .member-name {
+                p {
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+            }
+            .member-socials {
+                i {
+                    padding: 5px;
+                    font-size: 24px;
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    #contact {}
+}

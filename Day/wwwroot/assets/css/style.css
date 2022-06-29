@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#info {
+  text-align: center;
+}
+
+#info .mail-phone {
+  padding-top: 14px;
+}
+
+#info .mail-phone .info .icon i {
+  padding: 4px;
+  color: red;
+}
+
+#info .mail-phone .info .text a {
+  text-decoration: none;
+  color: white;
+}
+
+#info .mail-phone .info .text a:hover {
+  color: lightblue;
+}
+
+#info .mail-phone .contact {
+  margin-left: 5px;
+  padding-top: 2px;
+}
+
+#info .mail-phone .contact .icon i {
+  padding: 4px;
+  color: red;
+}
+
+#info .mail-phone .contact .phone span {
+  color: white;
+}
+
+#info .mail-phone .socials i {
+  padding: 4px;
+  font-size: 22px;
+  color: gray;
+}
+
+#info .mail-phone .socials i:hover {
+  color: aliceblue;
+}
+
+#header .navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+#header .navbar-nav .dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+#header .navbar-nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#header .navbar-nav .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#header .navbar-nav .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#header .navbar-nav .dropdown-content a:hover {
+  background-color: red;
+}
+
+#header .navbar-nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#header .navbar-nav .nav-item {
+  color: white;
+  padding: 15px;
+}
+
+#header .navbar-nav .nav-item a {
+  color: white;
+}
+
+#header .navbar-nav .nav-item:hover {
+  background-color: red;
+}
+
+main #hero .hero-slider {
+  height: 600px;
+  background-image: url(../images/car.jpg);
+  background-attachment: fixed;
+}
+
+main #hero .hero-slider .hero-content {
+  margin-top: 200px;
+}
+
+main #hero .hero-slider .hero-content .hero-text h1 {
+  color: white;
+  font-weight: 900;
+}
+
+main #hero .hero-slider .hero-content .hero-desc p {
+  color: white;
+  font-size: 20px;
+}
+
+main #hero .hero-slider .hero-content .btn a {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  border: 3px solid white;
+}
+
+main #hero .hero-slider .hero-content .btn a:hover {
+  background-color: red;
+  border: none;
+}
+
+main #pricing {
+  margin-top: 70px;
+}
+
+main #pricing .pricing .pricing-box {
+  padding: 20px;
+  background-color: #eeeeee;
+  border-radius: 20px;
+}
+
+main #pricing .pricing .pricing-box .cost .money-montly .money {
+  color: red;
+  font-size: 40px;
+}
+
+main #pricing .pricing .pricing-box .cost .money-montly .monthly {
+  margin-top: 20px;
+}
+
+main #pricing .pricing .pricing-box .buy-btn {
+  margin-top: 20px;
+  margin-left: 135px;
+}
+
+main #pricing .pricing .pricing-box .buy-btn a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: red;
+}
+
+main #pricing .pricing .pricing-boxactive {
+  background-color: red;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+main #pricing .pricing .pricing-boxactive .cost .money-montly .money {
+  color: white;
+  font-size: 40px;
+}
+
+main #pricing .pricing .pricing-boxactive .cost .money-montly .monthly {
+  margin-top: 20px;
+}
+
+main #pricing .pricing .pricing-boxactive .buy-btn {
+  margin-top: 20px;
+  margin-left: 135px;
+}
+
+main #pricing .pricing .pricing-boxactive .buy-btn a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: red;
+}
+
+main #pricing .pricing .pricing-boxactive .buy-btn:hover a {
+  background-color: white;
+  color: red;
+}
+
+main #team {
+  margin-top: 60px;
+}
+
+main #team .team-title {
+  margin-top: 70px;
+}
+
+main #team .team-member-box {
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main #team .team-member-box .member-image img {
+  text-align: center;
+  border-radius: 50%;
+}
+
+main #team .team-member-box .member-name p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+main #team .team-member-box .member-socials i {
+  padding: 5px;
+  font-size: 24px;
+}
+
+main #team .team-member-box .member-socials i:hover {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

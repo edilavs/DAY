@@ -1,0 +1,27 @@
+﻿@model TeamMember
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-11 mx-auto">
+            <div class="card" style="width: 18rem;">
+                <img src="~/uploads/members/@Model.Image" class="card-img-top" >
+                <div class="card-body">
+                    <h5 class="card-title">@Model.FullName</h5>
+                    <p class="card-text">@Model.Position</p>
+                    <p class="card-text">@Model.Desc</p>
+                    <form asp-action="delete" method="post">
+                        <a asp-action="index" class="btn btn-warning">Cancel</a>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
